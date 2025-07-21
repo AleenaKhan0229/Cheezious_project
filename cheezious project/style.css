@@ -1,0 +1,216 @@
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: white; 
+  padding: 10px 20px;
+  position: fixed;
+  right: 0px;
+  left: 0px;
+  top: 0px;
+
+}
+
+.menu-toggle {
+  background-color: white;
+  padding: 10px;
+  color: orange;
+  font-size: 20px;
+  cursor: pointer;
+  font-style: inherit;
+  font-weight: bolder;
+}
+
+.logo img {
+  height: 50px;
+    display: flex;
+    justify-content: flex-start;
+    
+  
+}
+
+
+.nav-actions {
+  display: flex;
+  gap: 10px;
+}
+
+.cart,
+.login {
+  background-color: orange;
+  color: black;
+  border: none;
+  padding: 10px 20px;
+  font-weight: bold;
+  cursor: pointer;
+  border-radius: 8px;
+}
+
+.cart i,
+.login i {
+  margin-right: 5px;
+}
+.front{
+    background-image: url(image2.png);
+    background-size: cover;
+    height: 500px;
+    
+}
+.text{
+    font-size: 30px;
+    font-family: helvetica;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    padding-left: 200px;
+}
+.view{
+    color: orange;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: helvetica;
+    backface-visibility: hidden;
+    padding-left: 600px;
+    cursor: pointer;
+
+}
+.deals{
+    display: flex;
+    justify-content: space-evenly;
+     padding: 20px;
+}
+.card{
+  height: 252px;
+    width: 20%;
+    border: 2px solid orange;
+    text-align: center;
+    font-weight: bold;
+    font-size: 18px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 10px;
+    box-sizing: border-box;
+    border-radius: 10px;
+}
+.img{
+    height: 200px;
+    width: 100%;
+    display: block;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.pizza{
+    display: flex;
+    justify-content: space-evenly;
+
+}
+.box{
+   font-size: 15px;
+   font-weight: bold;
+   font-family: helvetica;
+}
+.mobile{
+  height: 450px;
+  display: flex;
+ align-items: center;
+ justify-content: center;
+  background-image: url(mobile_app.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position:  center;
+
+}
+.lets_talk {
+    background-image: url("letss.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: right center;
+    height: 500px;
+    width: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 40px 60px;
+    color: #000;
+    font-family: 'Helvetica', sans-serif;
+    background-color:#FAF9F6;
+}
+.text_side {
+  max-width: 60%;
+ 
+
+}
+
+
+.offer {
+    color: #f15c22; 
+    font-size: 32px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.promotions {
+    font-size: 18px;
+    margin-bottom: 30px;
+    max-width: 400px;
+}
+
+
+.search {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    max-width: 400px;
+}
+
+.search input[type="text"] {
+    padding: 12px 20px;
+    font-size: 16px;
+    border-radius: 10px;
+    border: 1px solid #ccc;
+    outline: none;
+}
+
+
+.button {
+    background-color: #fbd300;
+    color: #000;
+    font-weight: bold;
+    padding: 12px 25px;
+    font-size: 16px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    width: fit-content;
+}
+
+.button:hover {
+    background-color: #f7b500;
+}
+
+.order{
+   
+    position: fixed;
+    right: 20px;  
+    bottom: 20px;  
+    padding: 10px 20px;
+    background-color: orange;
+    border: none;
+    border-radius: 8px;
+    font-weight: bold;
+    cursor: pointer;
+    z-index: 1000;
+}
+.footer{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 15px;
+}
+
+ 
+
+
