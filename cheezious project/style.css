@@ -14,7 +14,7 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 10px;  
+  /* padding: 10px;   */
   gap: 10px;    
 }
 
@@ -34,6 +34,32 @@
     justify-content: flex-start;
     
   
+}
+@media (max-width: 991px) {
+  .navbar {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .header-wrapper {
+    width: 100%;
+    justify-content: space-between;
+  }
+}
+
+@media (max-width: 576px) {
+  .header-wrapper {
+    flex-direction: row;
+  }
+
+  .logo img {
+    height: 40px;
+  }
+
+  .menu-toggle {
+    font-size: 18px;
+    padding: 5px;
+  }
 }
 
 
@@ -56,6 +82,25 @@
 .cart i,
 .login i {
   margin-right: 5px;
+}
+@media (max-width: 991px) {
+  .nav-actions {
+    margin-top: 10px;
+    flex-wrap: wrap;
+  }
+}
+
+@media (max-width: 576px) {
+  .nav-actions {
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .cart,
+  .login {
+    width: 100%;
+    padding: 10px;
+  }
 }
 .front{
     background-image: url(image2.png);
@@ -82,10 +127,23 @@
     cursor: pointer;
 
 }
+@media (max-width: 576px) {
+  .text {
+    flex-direction: column;
+    font-size: 20px;
+    padding: 10px 20px;
+  }
+
+  .view {
+    font-size: 14px;
+    margin-top: 10px;
+  }
+}
 .deals{
     display: flex;
     justify-content: space-evenly;
      padding: 20px;
+     gap: 20px;
 }
 .card{
   height: 252px;
@@ -109,6 +167,18 @@
     background-position: center;
     background-repeat: no-repeat;
 }
+@media (max-width: 991px) {
+  .card {
+    width: 45%;
+  }
+}
+
+@media (max-width: 576px) {
+  .card {
+    width: 90%;
+  }
+}
+
 .pizza{
     display: flex;
     justify-content: space-evenly;
@@ -118,6 +188,22 @@
    font-size: 15px;
    font-weight: bold;
    font-family: helvetica;
+}
+/* .box img{
+  width: 100%;
+  max-width: 250px;
+  height: auto;
+} */
+@media (max-width: 991px) {
+  .box {
+    width: 45%;
+  }
+}
+
+@media (max-width: 576px) {
+  .box {
+    width: 90%;
+  }
 }
 .mobile{
   height: 450px;
@@ -130,13 +216,18 @@
   background-position:  center;
 
 }
+@media (max-width: 576px) {
+  .mobile {
+    height: 300px;
+  }
+}
 .lets_talk {
     background-image: url("letss.png");
     background-size: contain;
     background-repeat: no-repeat;
     background-position: right center;
     height: 500px;
-    width: 90%;
+    /* width: 90%; */
     display: flex;
     align-items: center;
     justify-content: flex-start;
@@ -170,7 +261,7 @@
     display: flex;
     flex-direction: column;
     gap: 10px;
-    max-width: 400px;
+    /* max-width: 400px; */
 }
 
 .search input[type="text"] {
@@ -197,6 +288,25 @@
 .button:hover {
     background-color: #f7b500;
 }
+@media (max-width: 991px) {
+  .lets_talk {
+    flex-direction: column;
+    height: auto;
+    padding: 20px;
+  }
+
+  .text_side {
+    max-width: 100%;
+  }
+}
+
+@media (max-width: 576px) {
+  .search input[type="text"],
+  .button {
+    width: 100%;
+  }
+}
+
 
 .order{
    
@@ -211,12 +321,24 @@
     cursor: pointer;
     z-index: 1000;
 }
+@media (max-width: 576px) {
+  .order {
+    padding: 8px 16px;
+    font-size: 14px;
+  }
+}
 .footer{
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-top: 15px;
+  margin-top: 40px;
 }
+@media (max-width: 576px) {
+  .footer {
+    padding: 10px;
+  }
+}
+
 
  
 
