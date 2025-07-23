@@ -8,7 +8,7 @@ body{
   align-items: center;
   justify-content: space-between;
   background-color: white;
-  /* padding: 10px 20px; */
+  padding: 10px 20px;
   position: fixed;
   top: 0;
   left: 0;
@@ -34,9 +34,11 @@ body{
   border: none;
 }
 
-.logo img {
-  height: 50px;
-}
+/* .logo img {
+  height: 60px;
+ 
+
+} */
 
 .nav-actions {
   display: flex;
@@ -50,7 +52,7 @@ body{
   background-color: orange;
   color: black;
   border: none;
-  padding: 10px 20px;
+  padding: 10px 15px;
   font-weight: bold;
   cursor: pointer;
   border-radius: 8px;
@@ -70,23 +72,23 @@ body{
 .all{
   display: flex;
   align-items: center;
-  justify-content: space-between;
- padding: 20px 40px;
+  justify-content: space-around;
+ /* padding: 20px 40px; */
  } 
 .text {
   font-size: 30px;
   font-weight: bold;
   /* display: flex;
   align-items: center;
-  justify-content: flex-start;
-  padding-left: 200px; */
+  /* justify-content: flex-start; */
+  
 }
 
 .view {
   color: orange;
   font-size: 20px;
   font-weight: bold;
-  /* padding-left: 600px; */
+  
   cursor: pointer;
 }
 
@@ -249,19 +251,16 @@ body{
   width: 50px;
 }
   
-  /* .nav-actions{
-    
-    justify-content: center;
-    width: 10px;
-     gap: 5px;
+  .nav-actions{
+    gap: 5px;
     
   }
-   */
+  
   .cart,
   .login {
-    /* padding: 8px 16px; */
+     /* padding: 8px 16px;  */
     font-size: 10px;
-    /* width: 40%; */
+    width: auto;
     
   }
   
@@ -272,7 +271,7 @@ body{
   }
 
   .view {
-    padding-left: 20px;
+    /* padding-left: 20px; */
     font-size: 16px;
   }
 
@@ -293,6 +292,7 @@ body{
 }
 
 @media (max-width: 576px) {
+  
   .logo img {
     height: 40px;
   }
@@ -303,7 +303,7 @@ body{
   }
 
   .nav-actions {
-    flex-direction: column;
+    /* flex-direction: column; */
     /* width: 100%; */
   }
 
